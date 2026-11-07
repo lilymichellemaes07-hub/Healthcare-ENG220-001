@@ -1,5 +1,4 @@
-# Healthcare-ENG220-001
-## Healthcare access in Cuba, New Mexico
+# Healthcare access in Cuba, New Mexico
 
 ## Team Members
 
