@@ -16,8 +16,9 @@ Access to healthcare is important for maintaining a healthy community, but the p
 
 ## Problem Statement
 
+Access to healthcare in Cuba, New Mexico is a huge challenge for the majority of the residents. Cuba is considered a rural community due to not having a full service hospital, which means that residents often have to travel a long distance in order to get medical attention. Factors such as limited transportation options, lack of insurance, financial constraints, and the shortage of healthcare providers can make it difficult for residents to get the medical attention they need within a timely manner. These factors result in delayed treatment and poorer health outcomes that affect the overall community. 
 
-
+The goal of this project is to analyze healthcare accessibility in Cuba, New Mexico by examining datasets to related healthcare services, transportation, insurance coverage and income levels. By identifying the gaps in healthcare access, this project aims to better understand the struggles and challenges residents face and explore potential solutions. 
 
 ## Team Contributions
 
