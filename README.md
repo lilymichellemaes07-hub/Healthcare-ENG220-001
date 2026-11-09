@@ -20,6 +20,7 @@ Access to healthcare in Cuba, New Mexico is a huge challenge for the majority of
 
 The goal of this project is to analyze healthcare accessibility in Cuba, New Mexico by examining datasets to related healthcare services, transportation, insurance coverage and income levels. By identifying the gaps in healthcare access, this project aims to better understand the struggles and challenges residents face and explore potential solutions. 
 
+
 ## Team Contributions
 
 -Dataset research + Justification - (Aubriana & Martin)<br>
@@ -30,8 +31,13 @@ The goal of this project is to analyze healthcare accessibility in Cuba, New Mex
 -Writing documentation + project report- (Lily & Samuel)
 
 
-
 ## Datasets
+
+-https://data.census.gov/profile/Cuba_CCD,_Sandoval_County,_New_Mexico?g=060XX00US3504390870#populations-and-people
+-https://data.census.gov/table/ACSST5Y2024.S2701?g=060XX00US3504390870
+-https://www.cdc.gov/places/tools/data-portal.html
+-https://ibis.doh.nm.gov/
+-https://www.hsd.state.nm.us/data-book-2025-healthcare-access-and-affordability-indicators/ 
 
 
 ## Streamlit App
