@@ -1,6 +1,6 @@
 # Healthcare access in Cuba, New Mexico
 
-## Team Members
+## Team Members (Group 18)
 
 -Lily Maes<br>
 -Aubriana Martinez<br>
