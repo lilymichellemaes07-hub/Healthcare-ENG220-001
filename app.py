@@ -75,7 +75,7 @@ fig = px.pie(
   color="Category",
   color_discrete_map={
     "Insured" : "#A78BFA",
-    "Uninsured" : "C4A1E8",
+    "Uninsured" : "#C4A1E8",
   }
 )
 st.plotly_chart(fig, use_container_width=True)
