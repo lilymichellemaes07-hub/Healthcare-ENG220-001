@@ -107,12 +107,12 @@ st.write("- Financial aid programs")
 st.write("- Community health programs")
 
 st.subheader("Health Education Resources")
-st.write("Vaccination information")
-st.write("Healthy lifestyle resources")
+st.write("- Vaccination information")
+st.write("- Healthy lifestyle resources")
 
 st.subheader("Health Reminders")
-st.write("Medication reminders")
-st.write("Appointment reminders")
+st.write("- Medication reminders")
+st.write("- Appointment reminders")
 
 # Conclusion
 st.header("Conclusion")
