@@ -14,6 +14,18 @@ income levels, transportation barriers, and possible solutions
 to improve healthcare access in rural communities.
 """)
 
+# Healthcare Challenges
+st.header("Healthcare Challenges")
+
+st.write("""
+- No full-service hospital in Cuba, NM
+- Travel long distances for specialized care
+- Transportation limitations
+- Healthcare provider shortages
+- Finanical and insurance barriers
+""")
+
+
 # Team Members
 st.header("Team Members")
 
@@ -76,6 +88,15 @@ Financial barriers can make healthcare services more difficult
 to access.
 """)
 
+# Key findings 
+st.header("Key Findings")
+
+st.write("""
+- 11.5% of residents remain uninsured.
+- Adults ages 55-64 had the lowest insurance coverage rate. 
+- Lower income residents experienced lower insurance coverage.
+- Transportation and distance continue to impact healthcare access.
+""")
 # Proposed Solutions 
 st.header("Proposed Healthcare Access Platform")
 
@@ -127,4 +148,17 @@ platform, our team hopes to identify solutions that improve
 communication, accessibility, and overall health outcomes for
 the community.
 """)
+
+# Data Sources
+st.header("Data Sources")
+
+st.write("""
+- U.S. Census Bureau
+- American Community Survey (ACS)
+- CDC PLACES
+- New Mexico Department of Health
+- New Mexico Human Services Department
+""")
+
+
 
