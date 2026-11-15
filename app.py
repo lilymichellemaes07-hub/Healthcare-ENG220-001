@@ -89,7 +89,14 @@ age_data = pd.DataFrame({
   "Percent Insured": [78.0, 79.2, 74.8]
 })
 
-st.bar_chart(age_data.set_index("Age Group"))
+fig_age = px.bar(
+  age_data,
+  x="Age Group",
+  y="Percent Insured"
+  title="Insurance Coverage by Age Group",
+  color_discrete_sequence=["#A78BFA"]
+)
+st.plotly_chart(fig_age, use_container_width=True)
 
 st.write("""
 Residents ages 55-64 had the lowest insurance coverage rate.
@@ -108,7 +115,15 @@ income_data = pd.DataFrame({
   "Percent Insured": [85.3, 91.0, 91.3]
 })
 
-st.bar_chart(income_data.set_index("Income Level"))
+fig_income = px.bar(
+  income_data,
+  x="Income Level",
+  y="Percent Insured",
+  title="Income and Healthcare Access",
+  color_discrete_sequence=["#A78BFA"]
+)
+
+st.plotly_chart(fig_income, use_container_width=True)
 
 st.write("""
 Our analysis found that lower income residents generally had
