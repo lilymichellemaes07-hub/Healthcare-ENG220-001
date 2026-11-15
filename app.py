@@ -110,7 +110,7 @@ fig_age.update_traces(
   marker_color="#A78BFA"
 )
 
-fig_age.update.layout(
+fig_age.update_layout(
   height=500
 )
 
