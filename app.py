@@ -51,7 +51,7 @@ with col1:
 with col2:
   st.metric(
     label = "Insured Residents", 
-    value = "4313")
+    value = "4,313")
 with col3:
   st.metric(
     label = "Uninsured Residents", 
@@ -92,7 +92,7 @@ age_data = pd.DataFrame({
 fig_age = px.bar(
   age_data,
   x="Age Group",
-  y="Percent Insured"
+  y="Percent Insured",
   title="Insurance Coverage by Age Group",
   color_discrete_sequence=["#A78BFA"]
 )
