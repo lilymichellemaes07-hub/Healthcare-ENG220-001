@@ -10,6 +10,8 @@ st.set_page_config(
 
 st.sidebar.title("Healthcare Access Dashboard")
 
+st.sidebar.markdown("---")
+
 # Team Members
 st.sidebar.markdown("""
 ### Group 18
@@ -19,6 +21,29 @@ st.sidebar.markdown("""
 - Sam Martin
 - Sam Esparza
 """)
+
+st.sidebar.markdown("---")
+
+st.sidebar.markdown("""
+### Project Focus
+- Healthcare Accessibility
+- Insurance Coverage
+- Transportation Barriers
+- Income & Poverty Analysis
+- Proposed Solutions
+""")
+
+st.sidebar.markdown("---")
+
+st.sidebar.markdown("""
+### Course
+
+ENG 220
+Section: 001
+
+Healthcare Access Project
+""")
+
 
 st.title("Healthcare Access in Cuba, New Mexico")
 
@@ -84,7 +109,8 @@ fig = px.pie(
   }
 )
 fig.update_layout(
-  height=500
+  height=500,
+  legend_title="Coverage Status"
 )
 
 st.plotly_chart(fig, use_container_width=True)
@@ -111,7 +137,9 @@ fig_age.update_traces(
 )
 
 fig_age.update_layout(
-  height=500
+  height=500,
+  yaxis_title="Percent Insured (%)",
+  xaxis_title="Age Group"
 )
 
 st.plotly_chart(fig_age, use_container_width=True)
@@ -146,7 +174,9 @@ fig_income.update_traces(
 )
 
 fig_income.update_layout(
-  height=500
+  height=500,
+  yaxis_title="Percent Insured (%)",
+  xaxis_title="Income Level"
 )
 
 st.plotly_chart(fig_income, use_container_width=True)
