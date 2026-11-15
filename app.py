@@ -5,7 +5,7 @@ import plotly.express as px
 # Page Title
 st.set_page_config(
   page_title="Healthcare Access Dashboard",
-  page_layout="wide"
+  layout="wide"
 
 )
 
@@ -102,10 +102,8 @@ fig_age = px.bar(
 )
 
 fig_age.update_traces(
-  marker_color=import streamlit as st
-import pandas as pd
-import plotly.express as px
-
+  marker_color="#A78BFA"
+  
 # Page Title
 st.sidebar.title("Healthcare Access Dashboard")
 
