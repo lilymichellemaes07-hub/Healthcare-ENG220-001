@@ -1,7 +1,10 @@
 import streamlit as st
+import pandas as pd
 
+# Page Title
 st.title("Healthcare Access in Cuba, New Mexico")
 
+# Project Overview
 st.header("Project Overview")
 
 st.write("""
@@ -11,6 +14,7 @@ income levels, transportation barriers, and possible solutions
 to improve healthcare access in rural communities.
 """)
 
+# Team Members
 st.header("Team Members")
 
 st.write("""
@@ -20,25 +24,30 @@ st.write("""
 - Sam Esparza
 """)
 
+# Insurance Coverage Results
 st.header("Insurance Coverage Results")
 
-st.metric("Population Analyzed", "4,876")
-st.metric("Insured", "4313")
-st.metric("Uninsured", "563")
+col1, col2, col3 = st.columns(3)
+with col1:
+  st.metric("Population Analyzed", "4,876")
+with col2:
+  st.metric("Insured", "4313")
+with col3:
+  st.metric("Uninsured", "563")
 
 st.write("""
 88.5% of residents have health insurance coverage,
 while 11.5% remain uninsured.
 """)
 
-import pandas as pd
+# Insurance by Age Group 
+st.header("Insurance Coverage by Age Group")
 
 age_data = pd.DataFrame({
-  "Age Group: [19-25", "26-32", "55-64"],
-  "Percent Insured: [78.0, 79.2, 74.8]
+  "Age Group": ["19-25", "26-32", "55-64"],
+  "Percent Insured": [78.0, 79.2, 74.8]
 })
 
-st.header("Insurance Coverage by Age Group")
 
 st.bar_chart(age_data.set_index("Age Group"))
 
