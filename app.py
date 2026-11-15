@@ -74,8 +74,8 @@ fig = px.pie(
   title="Insurance Coverage Distribution",
   color="Category",
   color_discrete_map={
-    "Insured" : "",
-    "Uninsured" : "",
+    "Insured" : "#A78BFA",
+    "Uninsured" : "C4A1E8",
   }
 )
 st.plotly_chart(fig, use_container_width=True)
