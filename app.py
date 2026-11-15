@@ -48,48 +48,83 @@ age_data = pd.DataFrame({
   "Percent Insured": [78.0, 79.2, 74.8]
 })
 
-
 st.bar_chart(age_data.set_index("Age Group"))
 
-st.header("Proposed Solutions")
+st.write("""
+Residents ages 55-64 had the lowest insurance coverage rate.
+Young adults, ages 19-25 and 26-32, also showed lower rates
+of insurance compared to other age groups.
+""")
+
+# Income and Healthcare Access
+st.Header("Income and Healthcare Access")
+
+income_data = pd.DataFrame({
+  "Income Level": [
+    "Below 138% Poverty", "138-399% Poverty",
+    "400%+ Poverty" 
+  ],
+  "Percent Insured": [85.3, 91.0, 91.3]
+})
+
+st.bar_chart(income_data.set_index("Income Level"))
 
 st.write("""
-Our team proposes a healthcare access platform that would help residents connect with healthcare resources.
-
-Features Include:
-
-Telehealth Appointments
-- Meet with healthcare providers virtually
-- Reduce travel time for routine appointments
-
-Appointment Scheduling
-- Book appointments online
-- Receive appointment reminders
-
-Transportation Resources
-- Directions to nearby clincs and hospitals
-- Contact information for local transportation services
-- Information about transportation assistance programs
-
-Pharmacy Communication
-- View pharmacy contact information and hours
-- Message local pharmacies
-
-Emergency Care Information
-- Closest hospitals and emergency rooms
-- Emergency phone numbers
-- Directions and estimated travel distances
-
-Community Resource Page
-- Insurance assistance information
-- Financial aid programs
-- Community health resources
-
-Health Education Resources
-- Vaccination information
-- Healthy lifestyle resources
-
-Health Reminders
-- Medication reminders
-- Appointment reminders
+Our analysis found that lower income residents generally had
+lower insurance coverage rates than higher income residents.
+Financial barriers can make healthcare services more difficult
+to access.
 """)
+
+# Proposed Solutions 
+st.header("Proposed Healthcare Access Platform")
+
+st.subheader("Telehealth Appointments")
+st.write("- Meet with healthcare providers virtually")
+st.write("- Reduce travel time for routine appointments")
+
+st.subheader("Appointment Scheduling")
+st.write("- Book appointments online")
+st.write("- Receive appointment reminders")
+
+st.subheader("Transportation Resources")
+st.write("- Directions to nearby clinics and hospitals")
+st.write("- Contact information for local transportation services")
+st.write("- Information about transportation assistance programs")
+
+st.subheader("Pharmacy Communication")
+st.write("- View pharmacy contact information and hours")
+st.write("- Message local pharmacies")
+
+st.subheader("Emergency Care Information")
+st.write("- Closest hospitals and emergency rooms")
+st.write("- Emergency phone numbers")
+st.write("- Directions and destimated travel distances")
+
+st.subheader("Community Resource Page")
+st.write("- Insurance assistance information")
+st.write("- Financial aid programs")
+st.write("- Community health programs")
+
+st.subheader("Health Education Resources")
+st.write("Vaccination information")
+st.write("Healthy lifestyle resources")
+
+st.subheader("Health Reminders")
+st.write("Medication reminders")
+st.write("Appointment reminders")
+
+# Conclusion
+st.header("Conclusion")
+
+st.write("""
+Healthcare access remains a challenge for many residents of
+Cuba, New Mexico. Transportation barrieres, provider shortages,
+and insurance limitations can affect access to care.
+
+By analyzing healthcare data and developing healthcare access
+platform, our team hopes to identify solutions that improve 
+communication, accessibility, and overall health outcomes for
+the community.
+""")
+
