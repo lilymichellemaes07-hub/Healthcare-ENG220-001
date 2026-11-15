@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+
 # Page Title
 st.sidebar.title("Healthcare Access Dashboard")
 
@@ -61,6 +62,25 @@ st.write("""
 while 11.5% remain uninsured.
 """)
 
+insurance_df = pd.DataFrame({
+  "Category" : ["Insured", "Uninsured"],
+  "Population" : [4313, 563]
+})
+
+fig = px.pie(
+  insurance_df,
+  values="Population",
+  names="Category",
+  title="Insurance Coverage Distribution",
+  color="Category",
+  color_discrete_map={
+    "Insured" : "",
+    "Uninsured" : "",
+  }
+)
+st.plotly_chart(fig, use_container_width=True)
+
+
 # Insurance by Age Group 
 st.header("Insurance Coverage by Age Group")
 
@@ -73,12 +93,12 @@ st.bar_chart(age_data.set_index("Age Group"))
 
 st.write("""
 Residents ages 55-64 had the lowest insurance coverage rate.
-Young adults, ages 19-25 and 26-32, also showed lower rates
+Young adults, ages 19-25 and 26-34, also showed lower rates
 of insurance compared to other age groups.
 """)
 
 # Income and Healthcare Access
-st.Header("Income and Healthcare Access")
+st.header("Income and Healthcare Access")
 
 income_data = pd.DataFrame({
   "Income Level": [
