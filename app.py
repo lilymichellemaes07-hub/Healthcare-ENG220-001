@@ -6,8 +6,9 @@ import plotly.express as px
 st.set_page_config(
   page_title="Healthcare Access Dashboard",
   layout="wide"
-
 )
+
+st.sidebar.title("Healthcare Access Dashboard")
 
 # Team Members
 st.sidebar.markdown("""
@@ -103,6 +104,7 @@ fig_age = px.bar(
 
 fig_age.update_traces(
   marker_color="#A78BFA"
+)
 
 st.plotly_chart(fig_age, use_container_width=True)
 
@@ -191,17 +193,6 @@ st.write("- Healthy lifestyle resources")
 st.subheader("Health Reminders")
 st.write("- Medication reminders")
 st.write("- Appointment reminders")
-
-
-st.plotly_chart(fig_age, use_container_width=True)
-
-st.write("""
-Residents ages 55-64 had the lowest insurance coverage rate.
-Young adults, ages 19-25 and 26-34, also showed lower rates
-of insurance compared to other age groups.
-""")
-
-
 
 # Conclusion
 st.header("Conclusion")
