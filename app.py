@@ -65,7 +65,7 @@ while 11.5% remain uninsured.
 st.header("Insurance Coverage by Age Group")
 
 age_data = pd.DataFrame({
-  "Age Group": ["19-25", "26-32", "55-64"],
+  "Age Group": ["19-25", "26-34", "55-64"],
   "Percent Insured": [78.0, 79.2, 74.8]
 })
 
