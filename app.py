@@ -218,7 +218,7 @@ st.write("- Message local pharmacies")
 st.subheader("Emergency Care Information")
 st.write("- Closest hospitals and emergency rooms")
 st.write("- Emergency phone numbers")
-st.write("- Directions and destimated travel distances")
+st.write("- Directions and estimated travel distances")
 
 st.subheader("Community Resource Page")
 st.write("- Insurance assistance information")
