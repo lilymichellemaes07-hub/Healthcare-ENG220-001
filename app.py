@@ -47,9 +47,6 @@ Healthcare Access Project
 
 st.title("Healthcare Access in Cuba, New Mexico")
 
-st.info(
-  "Analyzing healthcare accessibility, insurance coverage, transportation barriers, and potiental solutions for residents of Cuba, New Mexico."
-)
 
 # Project Overview
 st.header("Project Overview")
