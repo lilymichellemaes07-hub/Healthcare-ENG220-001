@@ -83,6 +83,10 @@ fig = px.pie(
     "Uninsured" : "#C4A1E8",
   }
 )
+fig.update_layout(
+  height=500
+)
+
 st.plotly_chart(fig, use_container_width=True)
 
 
@@ -104,6 +108,10 @@ fig_age = px.bar(
 
 fig_age.update_traces(
   marker_color="#A78BFA"
+)
+
+fig_age.update.layout(
+  height=500
 )
 
 st.plotly_chart(fig_age, use_container_width=True)
@@ -135,6 +143,10 @@ fig_income = px.bar(
 
 fig_income.update_traces(
   marker_color="#A78BFA"
+)
+
+fig_income.update_layout(
+  height=500
 )
 
 st.plotly_chart(fig_income, use_container_width=True)
