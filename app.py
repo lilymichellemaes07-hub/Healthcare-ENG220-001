@@ -1,8 +1,24 @@
 import streamlit as st
 import pandas as pd
-
+import plotly.express as px
 # Page Title
+st.sidebar.title("Healthcare Access Dashboard")
+
+# Team Members
+st.sidebar.markdown("""
+### Group 18
+
+- Lily Maes
+- Aubriana Martinez
+- Sam Martin
+- Sam Esparza
+""")
+
 st.title("Healthcare Access in Cuba, New Mexico")
+
+st.info(
+  "Analyzing healthcare accessibility, insurance coverage, transportation barriers, and potiental solutions for residents of Cuba, New Mexico."
+)
 
 # Project Overview
 st.header("Project Overview")
@@ -25,17 +41,6 @@ st.write("""
 - Finanical and insurance barriers
 """)
 
-
-# Team Members
-st.header("Team Members")
-
-st.write("""
-- Lily Maes
-- Aubriana Martinez
-- Sam Martin
-- Sam Esparza
-""")
-
 # Insurance Coverage Results
 st.header("Insurance Coverage Results")
 
@@ -43,9 +48,13 @@ col1, col2, col3 = st.columns(3)
 with col1:
   st.metric("Population Analyzed", "4,876")
 with col2:
-  st.metric("Insured", "4313")
+  st.metric(
+    label = "Insured Residents", 
+    value = "4313")
 with col3:
-  st.metric("Uninsured", "563")
+  st.metric(
+    label = "Uninsured Residents", 
+    value = "563")
 
 st.write("""
 88.5% of residents have health insurance coverage,
