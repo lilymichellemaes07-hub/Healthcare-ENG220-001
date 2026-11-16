@@ -72,6 +72,20 @@ Proposed features included:
 - Emergency care resources
 - Health education resources and materials
 
+## How to Run Project
+
+- Clone the Repository: <br>
+git clone https://github.com/lilymichellemaes07-hub/Healthcare-ENG220-001
+
+- Install Required Libraries: <br>
+pip install requirements.txt
+
+- Run the Streamlit Application in Terminal: <br>
+streamlit run app.py
+
+- Open the Application: <br>
+After running the command above, open the Streamlit URL
+
 ## Project Outcomes
 
 This project has helped our team understand the daily challenges faced by residents of Cuba, New Mexico. As well as what other rural communities face. Through the analysis of healthcare, insurance, and income data, we have identified several barriers that impact healthcare accessibility. Our findings highlight the importance of improving healthcare communication, transportation resources, and access to healthcare services through technology-based solutions. 
