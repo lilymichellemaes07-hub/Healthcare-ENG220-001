@@ -55,7 +55,7 @@ https://canva.link/9bmvs7kkuusxxyv
 
 Presentation Length : 7-10 Minutes
 
-Course : ENG 200 - 001
+Course : ENG200-001
 
 Semester: Fall 2026
 
@@ -79,7 +79,7 @@ The Streamlit dashboard includes:
 
 ## Proposed Solutions
 
-Based on our findings, our team developed the concept of Healthcare Access Platform designed to improve access to healthcare services in Cuba, New Mexico.
+Based on our findings, our team developed the concept of a Healthcare Access Platform designed to improve access to healthcare services in Cuba, New Mexico.
 
 Proposed features include:
 
@@ -131,7 +131,7 @@ Future development of the Healthcare Access Platform could include:
 
 ## Dashboard Preview
 
-The Streamlit dashboard provides users to interact with the visualizations that explore healthcare accessibility in Cuba, New Mexico.
+The Streamlit dashboard allows users to interact with visualizations that explore healthcare accessibility in Cuba, New Mexico.
 
 ### Insurance Coverage Dashboard 
 <img width="812" height="494" alt="image" src="https://github.com/user-attachments/assets/36cabee8-d9d6-41d9-b8c4-dfd0b1556c2b" />
