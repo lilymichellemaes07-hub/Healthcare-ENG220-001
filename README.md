@@ -21,15 +21,35 @@ Access to healthcare in Cuba, New Mexico is a huge challenge for the majority of
 
 The goal of this project is to analyze healthcare accessibility in Cuba, New Mexico by examining datasets to related healthcare services, transportation, insurance coverage and income levels. By identifying the gaps in healthcare access, this project aims to better understand the struggles and challenges residents face and explore potential solutions. 
 
+## Proposed Solutions
+
+Based on our findings, our team developed the concept of healthcare Access Platform designed to improve access to healthcare services in Cuba, New Mexico.
+
+Proposed features included
+
+- Telehealth appointments
+- Online appointment scheduling
+- Pharmacy communication
+- Prescription and appointment reminders
+- Transportation assistance information
+- Emergency care resources
+- Health education resources and materials
+
+## Key Findings
+- 88.5% of residents in Cuba, New Mexico have health insurance coverage.
+- 11.5% of residents remain uninsured.
+- Adults aged 55-64 had the lowest insurance coverage rates among the groups analyzed.
+- Lower income residents generally experienced lower insurance coverage rates.
+- Transportation barriers and long travel distances continue to affect healthcare accessibility.  
 
 ## Team Contributions
 
--Dataset research + Justification - (Aubriana & Martin)<br>
--Data cleaning & preprocessing - (Aubriana & Samuel<br>
--Writing analysis code and producing visualization -  (Samuel & Martin)<br>
--Managing GitHub workflow (branches, commits, merges) - (Lily & Martin)<br>
--Building the Streamlit application- (Lily & Aubriana)<br>
--Writing documentation + project report- (Lily & Samuel)
+- Dataset research + Justification - (Aubriana & Martin)<br>
+- Data cleaning & preprocessing - (Aubriana & Samuel<br>
+- Writing analysis code and producing visualization -  (Samuel & Martin)<br>
+- Managing GitHub workflow (branches, commits, merges) - (Lily & Martin)<br>
+- Building the Streamlit application- (Lily & Aubriana)<br>
+- Writing documentation + project report- (Lily & Samuel)
 
 
 ## Datasets
@@ -43,5 +63,5 @@ The goal of this project is to analyze healthcare accessibility in Cuba, New Mex
 
 ## Streamlit App
 
-- https://healthcare-eng200-001.streamlit.app/ 
+https://healthcare-eng200-001.streamlit.app/ 
 
