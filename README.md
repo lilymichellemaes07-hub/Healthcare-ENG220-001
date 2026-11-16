@@ -21,10 +21,46 @@ Access to healthcare in Cuba, New Mexico is a huge challenge for the majority of
 
 The goal of this project is to analyze healthcare accessibility in Cuba, New Mexico by examining datasets to related healthcare services, transportation, insurance coverage and income levels. By identifying the gaps in healthcare access, this project aims to better understand the struggles and challenges residents face and explore potential solutions. 
 
+
+## Team Contributions
+
+- Dataset research + Justification - (Aubriana & Martin)<br>
+- Data cleaning & preprocessing - (Aubriana & Samuel<br>
+- Writing analysis code and producing visualization -  (Samuel & Martin)<br>
+- Managing GitHub workflow (branches, commits, merges) - (Lily & Martin)<br>
+- Building the Streamlit application - (Lily & Aubriana)<br>
+- Writing documentation + project report - (Lily & Samuel)
+
+
+## Datasets
+
+- https://data.census.gov/profile/Cuba_CCD,_Sandoval_County,_New_Mexico?g=060XX00US3504390870#populations-and-people<br>
+- https://data.census.gov/table/ACSST5Y2024.S2701?g=060XX00US3504390870<br>
+- https://www.cdc.gov/places/tools/data-portal.html<br>
+- https://ibis.doh.nm.gov/<br>
+- https://www.hsd.state.nm.us/data-book-2025-healthcare-access-and-affordability-indicators/
+
+
+## Project Resources
+
+- Streamlit Application:
+https://healthcare-eng200-001.streamlit.app/
+
+- Github Repository:
+https://github.com/lilymichellemaes07-hub/Healthcare-ENG220-001
+
+- Canva Slides:
+
+## Key Findings
+- 88.5% of residents in Cuba, New Mexico have health insurance coverage.
+- 11.5% of residents remain uninsured.
+- Adults aged 55-64 had the lowest insurance coverage rates among the groups analyzed.
+- Lower income residents generally experienced lower insurance coverage rates.
+- Transportation barriers and long travel distances continue to affect healthcare accessibility.  
+
 ## Proposed Solutions
 
 Based on our findings, our team developed the concept of healthcare Access Platform designed to improve access to healthcare services in Cuba, New Mexico.
-
 
 Proposed features included:
 
@@ -36,33 +72,10 @@ Proposed features included:
 - Emergency care resources
 - Health education resources and materials
 
-## Key Findings
-- 88.5% of residents in Cuba, New Mexico have health insurance coverage.
-- 11.5% of residents remain uninsured.
-- Adults aged 55-64 had the lowest insurance coverage rates among the groups analyzed.
-- Lower income residents generally experienced lower insurance coverage rates.
-- Transportation barriers and long travel distances continue to affect healthcare accessibility.  
+## Project Outcomes
 
-## Team Contributions
-
-- Dataset research + Justification - (Aubriana & Martin)<br>
-- Data cleaning & preprocessing - (Aubriana & Samuel<br>
-- Writing analysis code and producing visualization -  (Samuel & Martin)<br>
-- Managing GitHub workflow (branches, commits, merges) - (Lily & Martin)<br>
-- Building the Streamlit application- (Lily & Aubriana)<br>
-- Writing documentation + project report- (Lily & Samuel)
+This project has helped our team understand the daily challenges faced by residents of Cuba, New Mexico. As well as what other rural communities face. Through the analysis of healthcare, insurance, and income data, we have identified several barriers that impact healthcare accessibility. Our findings highlight the importance of improving healthcare communication, transportation resources, and access to healthcare services through technology-based solutions. 
 
 
-## Datasets
 
-- https://data.census.gov/profile/Cuba_CCD,_Sandoval_County,_New_Mexico?g=060XX00US3504390870#populations-and-people<br>
-- https://data.census.gov/table/ACSST5Y2024.S2701?g=060XX00US3504390870<br>
-- https://www.cdc.gov/places/tools/data-portal.html<br>
-- https://ibis.doh.nm.gov/<br>
-- https://www.hsd.state.nm.us/data-book-2025-healthcare-access-and-affordability-indicators/ 
-
-
-## Streamlit App
-
-https://healthcare-eng200-001.streamlit.app/ 
 
