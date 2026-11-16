@@ -25,7 +25,8 @@ The goal of this project is to analyze healthcare accessibility in Cuba, New Mex
 
 Based on our findings, our team developed the concept of healthcare Access Platform designed to improve access to healthcare services in Cuba, New Mexico.
 
-Proposed features included
+
+Proposed features included:
 
 - Telehealth appointments
 - Online appointment scheduling
