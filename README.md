@@ -2,10 +2,10 @@
 
 ## Team Members (Group 18)
 
--Lily Maes<br>
--Aubriana Martinez<br>
--Sam Martin<br>
--Sam Esparza
+- Lily Maes<br>
+- Aubriana Martinez<br>
+- Sam Martin<br>
+- Sam Esparza
 
 
 ## Abstract
@@ -34,11 +34,11 @@ The goal of this project is to analyze healthcare accessibility in Cuba, New Mex
 
 ## Datasets
 
--https://data.census.gov/profile/Cuba_CCD,_Sandoval_County,_New_Mexico?g=060XX00US3504390870#populations-and-people<br>
--https://data.census.gov/table/ACSST5Y2024.S2701?g=060XX00US3504390870<br>
--https://www.cdc.gov/places/tools/data-portal.html<br>
--https://ibis.doh.nm.gov/<br>
--https://www.hsd.state.nm.us/data-book-2025-healthcare-access-and-affordability-indicators/ 
+- https://data.census.gov/profile/Cuba_CCD,_Sandoval_County,_New_Mexico?g=060XX00US3504390870#populations-and-people<br>
+- https://data.census.gov/table/ACSST5Y2024.S2701?g=060XX00US3504390870<br>
+- https://www.cdc.gov/places/tools/data-portal.html<br>
+- https://ibis.doh.nm.gov/<br>
+- https://www.hsd.state.nm.us/data-book-2025-healthcare-access-and-affordability-indicators/ 
 
 
 ## Streamlit App
