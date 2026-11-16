@@ -25,7 +25,7 @@ The goal of this project is to analyze healthcare accessibility in Cuba, New Mex
 ## Team Contributions
 
 - Dataset research + Justification - (Aubriana & Martin)<br>
-- Data cleaning & preprocessing - (Aubriana & Samuel<br>
+- Data cleaning & preprocessing - (Aubriana & Samuel)<br>
 - Writing analysis code and producing visualization -  (Samuel & Martin)<br>
 - Managing GitHub workflow (branches, commits, merges) - (Lily & Martin)<br>
 - Building the Streamlit application - (Lily & Aubriana)<br>
@@ -43,13 +43,21 @@ The goal of this project is to analyze healthcare accessibility in Cuba, New Mex
 
 ## Project Resources
 
-- Streamlit Application:
+- Streamlit Application <br>
 https://healthcare-eng200-001.streamlit.app/
 
-- Github Repository:
+- Github Repository: <br>
 https://github.com/lilymichellemaes07-hub/Healthcare-ENG220-001
 
-- Canva Slides:
+- Canva Slides: <br>
+https://canva.link/9bmvs7kkuusxxyv
+<br>
+
+Presentation Length : 7-10 Minutes
+
+Course : ENG 200 - 001
+
+Semester: Fall 2026
 
 ## Dashboard Features
 
@@ -71,9 +79,9 @@ The Streamlit dashboard includes:
 
 ## Proposed Solutions
 
-Based on our findings, our team developed the concept of healthcare Access Platform designed to improve access to healthcare services in Cuba, New Mexico.
+Based on our findings, our team developed the concept of Healthcare Access Platform designed to improve access to healthcare services in Cuba, New Mexico.
 
-Proposed features included:
+Proposed features include:
 
 - Telehealth appointments
 - Online appointment scheduling
@@ -83,18 +91,18 @@ Proposed features included:
 - Emergency care resources
 - Health education resources and materials
 
-# How to Run Project
+## How to Run Project
 
-## 1. Clone the Repository
+### 1. Clone the Repository
 git clone https://github.com/lilymichellemaes07-hub/Healthcare-ENG220-001.git
 
-## 2. Install Required Libraries
+### 2. Install Required Libraries
 pip install requirements.txt
 
-## 3. Run the Streamlit Application in Terminal
+### 3. Run the Streamlit Application in Terminal
 streamlit run app.py
 
-## 4. Open the Application: 
+### 4. Open the Application
 After running the command above, open the Streamlit URL
 
 ## Technologies Used
@@ -121,19 +129,21 @@ Future development of the Healthcare Access Platform could include:
 - Transportation assistance resources
 <br>
 
-# Dashboard Preview
+## Dashboard Preview
 
-## Insurance Coverage Dashboard 
+The Streamlit dashboard provides users to interact with the visualizations that explore healthcare accessibility in Cuba, New Mexico.
+
+### Insurance Coverage Dashboard 
 <img width="812" height="494" alt="image" src="https://github.com/user-attachments/assets/36cabee8-d9d6-41d9-b8c4-dfd0b1556c2b" />
 <br>
 <br>
 
-## Age Group Analysis 
+### Age Group Analysis 
 <img width="784" height="453" alt="image" src="https://github.com/user-attachments/assets/4c8f2247-5540-4fea-8e97-4527a130bfd2" />
 <br>
 <br>
 
-## Income and Healthcare Access 
+### Income and Healthcare Access 
 <img width="769" height="458" alt="image" src="https://github.com/user-attachments/assets/3a5b5739-f269-4e2f-926f-21c3455efae1" />
 <br>
 <br>
