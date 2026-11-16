@@ -75,7 +75,7 @@ Proposed features included:
 ## How to Run Project
 
 - Clone the Repository: <br>
-git clone https://github.com/lilymichellemaes07-hub/Healthcare-ENG220-001
+git clone https://github.com/lilymichellemaes07-hub/Healthcare-ENG220-001.git
 
 - Install Required Libraries: <br>
 pip install requirements.txt
