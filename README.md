@@ -51,6 +51,17 @@ https://github.com/lilymichellemaes07-hub/Healthcare-ENG220-001
 
 - Canva Slides:
 
+## Dashboard Features
+
+The Streamlit dashboard includes:
+
+- Healthcare accessibility overview
+- Insurance coverage analysis
+- Age group insurance comparisons
+- Income and poverty analysis
+- Interactive data visualizations
+- Proposed healthcare access solutions
+
 ## Key Findings
 - 88.5% of residents in Cuba, New Mexico have health insurance coverage.
 - 11.5% of residents remain uninsured.
@@ -72,24 +83,57 @@ Proposed features included:
 - Emergency care resources
 - Health education resources and materials
 
-## How to Run Project
+# How to Run Project
 
-- Clone the Repository: <br>
+## 1. Clone the Repository
 git clone https://github.com/lilymichellemaes07-hub/Healthcare-ENG220-001.git
 
-- Install Required Libraries: <br>
+## 2. Install Required Libraries
 pip install requirements.txt
 
-- Run the Streamlit Application in Terminal: <br>
+## 3. Run the Streamlit Application in Terminal
 streamlit run app.py
 
-- Open the Application: <br>
+## 4. Open the Application: 
 After running the command above, open the Streamlit URL
+
+## Technologies Used
+
+- Python
+- Github
+- Streamlit
+- Pandas
+- Plotly Express
+- VS Code
+- Git Bash
+- Canva
 
 ## Project Outcomes
 
 This project has helped our team understand the daily challenges faced by residents of Cuba, New Mexico. As well as what other rural communities face. Through the analysis of healthcare, insurance, and income data, we have identified several barriers that impact healthcare accessibility. Our findings highlight the importance of improving healthcare communication, transportation resources, and access to healthcare services through technology-based solutions. 
 
+## Future Improvements 
 
+Future development of the Healthcare Access Platform could include:
 
+- Appointment scheduling tools
+- Pharmacy communication services
+- Transportation assistance resources
+<br>
 
+# Dashboard Preview
+
+## Insurance Coverage Dashboard 
+<img width="812" height="494" alt="image" src="https://github.com/user-attachments/assets/36cabee8-d9d6-41d9-b8c4-dfd0b1556c2b" />
+<br>
+<br>
+
+## Age Group Analysis 
+<img width="784" height="453" alt="image" src="https://github.com/user-attachments/assets/4c8f2247-5540-4fea-8e97-4527a130bfd2" />
+<br>
+<br>
+
+## Income and Healthcare Access 
+<img width="769" height="458" alt="image" src="https://github.com/user-attachments/assets/3a5b5739-f269-4e2f-926f-21c3455efae1" />
+<br>
+<br>
